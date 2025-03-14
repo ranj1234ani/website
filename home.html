@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: rgb(32, 33, 34);
+            opacity: 50%;
+        }
+        nav {
+            background: #e30f0f;
+            padding: 10px;
+            display: flex;
+        }
+        h1,p{
+            color: white;
+        }
+        .logo{
+            width: 20vw;
+            height: 20vh;
+            padding: 10px;
+            border-radius: 50%;
+            color: black;
+            background-color: white;
+            box-shadow: 20px 12px 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        nav ul li {
+            display:inline-flex;
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 50px;
+            margin-top: 25%;
+            font-weight: 500;
+            font-size: 20px;
+            text-shadow: 5px 0px 10px;
+        }
+        nav ul li a:hover {
+            color: rgb(17, 0, 255);
+        }
+        .container {
+            padding: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .btn {
+            background: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: darkblue;
+        }
+       a{
+         text-decoration:none;
+         color:white;
+        }
+        .img-section{
+            display: flex;
+        }
+        .img{
+            display: flex;
+            width: 18.3vw;
+            height: 30vh;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <img class="logo" src="images/logo.png!w700wp">
+        <ul>
+            <li><a href="home.html">🏡 Home</a></li>
+            <li><a href="shop.html">🛒 Shop</a></li>
+            <li><a href="contact.html">☎ Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="container">
+        <h1>Welcome to Our E-Commerce Store</h1>
+        <p>Shop the best products at the best prices!</p>
+    </div>
+    <div class="img-section">
+        <div class="img">
+           <img src="images/chocolates.jpg">
+        </div>
+        <div class="img">
+            <img src="images/food.jpg">
+        </div>
+        <div class="img">
+            <img src="images/mackup.jpg">
+        </div>
+        <div class="img">
+            <img src="images/organic.jpg">
+        </div>
+        <div class="img">
+            <img src="images/shoes.jpg">
+        </div>
+    </div>
+</body>
+</html>
